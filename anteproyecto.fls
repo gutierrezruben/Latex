@@ -1,4 +1,4 @@
-PWD /Users/ruben/Desktop/TFG/anteproyecto-TFG
+PWD /Users/ruben/Desktop/TFG/Latex
 INPUT /usr/local/texlive/2017/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -82,6 +82,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyheadings.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -290,6 +292,8 @@ INPUT ./anteproyecto.out
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb

@@ -721,7 +721,7 @@
           que esencialmente añade tipado estático y objetos basados en clases.
           Typescript puede ser usado para
           desarrollar aplicaciones JavaScript que se ejecutarán en el lado del
-          cliente o del servidor (Node.js).\\
+          cliente o del servidor (NodeJS).\\
 
           TypeScript extiende la sintaxis de JavaScript, por tanto cualquier código
           JavaScript existente debería funcionar sin problemas. Está pensado para
@@ -734,15 +734,52 @@
           existentes. Esto permite a otros programas usar los valores definidos en
           los ficheros como si fueran entidades TypeScript de tipado estático.
           Existen cabeceras para librerías populares como jQuery, MongoDB y D3.js, y
-          los módulos básicos de Node.js.
+          los módulos básicos de NodeJS.
 
         \subsection{Node.js}\\
 
-          Node.js® es un entorno de ejecución para JavaScript construido con el
-          motor de JavaScript V8 de Chrome. Node.js usa un modelo de operaciones E/S
+          NodeJS es un entorno de ejecución para JavaScript construido con el
+          motor de JavaScript V8 de Chrome. NodeJS usa un modelo de operaciones E/S
           sin bloqueo y orientado a eventos, que lo hace liviano y eficiente. El
-          ecosistema de paquetes de Node.js, npm, es el ecosistema mas grande de
-          librerías de código abierto en el mundo.
+          ecosistema de paquetes de NodeJS, npm, es el ecosistema mas grande de
+          librerías de código abierto en el mundo.\\
+
+          La gran fortaleza de NodeJS es su entrono multiplataforma de código
+          abierto para el desarrollo de aplicaciones de servidor y redes. Las
+          siguientes caracteristicas son las mas importantes a la hora de elegir
+          para los arquitectos de software a NodeJS:\\
+
+          \begin{itemize}
+            \item{Asincróno y controlado por eventos: todas las API de su
+                  biblioteca son asíncronas sin bloqueo. Básicamente, significa
+                  que un servidor basado en NodeJS nunca espera que una API
+                  devuelva datos. El servidor pasa a la siguente API después de
+                  llamarlo y un mecanismo de notificación de eventos de NodeJS
+                  ayuda al servidor a obtener una respuesta de la llamado API
+                  anterior.}
+            \item{Altamente escalable: el mecanismo de eventos ayuda al servidor
+                  responder de forma no bloqueante y hace que el servidor sea
+                  altamente escalable en comparación con los servidores
+                  tradicionales que crean subprocesos limitados para manejar las
+                  solicitudes. NodeJS utiliza un único programa de subprocesos y
+                  el mismo programa puede proporcionar servicio a un número mucho
+                  mayor de solicitudes que los servidores tradicionales como
+                  Apache HTTP Server.}
+            \item{Sin búfer: las aplicaciones nunca almacenann en búfer ningún
+                  dato. Estas aplicaciones simplemente generan los datos en
+                  fragmentos.}
+            \item{Muy rápido: al estar creado en el motor de JavaScript V8 de
+                  Google Chrome.}
+          \end{itemize}
+
+            % https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm
+
+          ¿Cómo sabemos lo bueno que es Node? Pues mirando quienes la usa: Uber,
+          NETFLIX, Medium, Wikipedia, Product Hunt, Flipboard, Trello ... Pues
+          esto es un indicador pues ellos que tienen de los mejores ingenieros
+          han decidido usar esta tecnología y nos da un indirectamente que la
+          tecnología funciona en ambiente a gran escala, porque al usar una
+          tecnología nueva y esta no es escalable pues frustrará todo tu trabajo.\\
 
         \subsection{SQL-lite}\\
 
@@ -757,7 +794,6 @@
             y los propios datos), son guardados como un sólo fichero estándar en la
             máquina host. Este diseño simple se logra bloqueando todo el fichero de
             base de datos al principio de cada transacción.
-
 
         \subsection{Gráfica}\\
 
@@ -808,13 +844,23 @@
             \item Elegir que tipo de gráfico.
             \item Suministrar datos, etiquetas y más.
           \end{enumerate}
-          Y ya lo tendremos en nuestro proyecto. Como dato estos gráficos son muy
+          Y ya lo tendremos en nuestro proyecto. Como dato: estos gráficos son muy
           personalizables, como:
 
           \begin{itemize}
             \item{Estilizar la línea}
             \item{Añadir colores a los distintos elementos. }
             \item{Fuentes}
+            \item{Color del área por la llave backgroundColor.}
+            \item{dibujar una línea y no rellenarla con ningun color fill}
+            \item{Gráficas de linea:}
+              \begin{itemize}
+                \item{Estilizar la línea}
+                \item{Añadir colores a los distintos elementos. }
+                \item{Fuentes}
+                \item{Color del área por la llave backgroundColor.}
+                \item{dibujar una línea y no rellenarla con ningun color fill}
+              \end{itemize}
           \end{itemize}
 
         \subsection{Google Maps}\\
@@ -927,7 +973,7 @@
 
             Los requisitos para desarrollar en los distintos SO son:
             \begin{itemize}
-                \item{Node.JS}
+                \item{NodeJS}
                 \item{Paquetes Cordova e Ionic}
                 \item{SDK de Android / Xcode}
                 \item{Java JDK (Android)}
