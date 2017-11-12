@@ -803,7 +803,7 @@
           ejemplo de ello sería un cuadro de mandos, "Los cuadros de mando han
           de presentar sólo aquella información que sean imprescindible, de una
           forma sencilla y por supuesto, sinóptica y resumida." (Según la
-          wikipedia: https://es.wikipedia.org/wiki/Cuadro_de_mando). Por ende
+          wikipedia: https://es.wikipedia.org/wiki/Cuadro\_de\_mando). Por ende
           una buena forma de presentar los datos es mediante graficas, que
           dependiendo de cual puede ser muy intuitiva de cara al usuario.\\
 
@@ -813,7 +813,8 @@
           Pero, ¿Qué es Chart.js? es una biblioteca que visualiza datos mediante
           JavaScript, la cual es mantenida por la comunidad y esta disponible
           en GitHub. Es similar a otras bibliotecas como las de Google Charts.
-          Aquí mostramos los tipos de graficas que podemos encontrar en su web:\\
+          Podemos ver los tipos de gráficas que tienen en su web con la figura
+          (\ref{f:chartjsI} y \ref{f:chartjsII}).\\
 
               \begin{figure}[H]
                   \centering
@@ -848,22 +849,42 @@
           personalizables, como:
 
           \begin{itemize}
-            \item{Estilizar la línea}
-            \item{Añadir colores a los distintos elementos. }
-            \item{Fuentes}
-            \item{Color del área por la llave backgroundColor.}
-            \item{dibujar una línea y no rellenarla con ningun color fill}
-            \item{Gráficas de linea:}
+            \item{Variable data:}
               \begin{itemize}
-                \item{Estilizar la línea}
-                \item{Añadir colores a los distintos elementos. }
-                \item{Fuentes}
-                \item{Color del área por la llave backgroundColor.}
-                \item{dibujar una línea y no rellenarla con ningun color fill}
-              \end{itemize}
+                  \item{labels: son las etiquetas que aparecen en la grafica, un
+                        ejemplo sería para una grafica de deporte:"Lunes","Martes",
+                        "Miercoles" y así para el resto de días de la semana.}
+                  \item{datasets: son grupos de información que se mostraran en
+                        la gráfica.}
+                        \begin{itemize}
+                          \item{label: es la etiqueta de dataset, es el significado
+                                de los datos de la gráfica. Continuando el ejemplo
+                                anterior: "Días de entrenamiento".}
+                          \item{data: es una lista que le dan valor a la gráfica
+                                y su longitud ha de ser igual al numero de labels. }
+                          \item{backgroundColor: propiedad que sirve para elegir
+                                el color de fondo de la grafica. Hay que darle
+                                color a cada labels de la gráfica.}
+                          \item{borderColor: es similar al anterior pero con la
+                                diferencia de que es el color del borde de la gráfica.}
+                          \item{borderEidth: }
+                        \end{itemize}
+                \end{itemize}
           \end{itemize}
 
+          Para terminar con chartJS mostramos una imagen con el ejemplo de los
+          definiciones antes mencionado, este lo podemos ver en la figura
+          (\ref{f:ejemplo-entrenamiento}).\\
+
+          \begin{figure}[H]
+              \centering
+              \includegraphics[width=\textwidth]{ejemplo-entrenamiento}
+              \caption{Ejemplo de entrenamiento}
+              \label{f:ejemplo-entrenamiento}
+          \end{figure}
+
         \subsection{Google Maps}\\
+          
 
         \subsection{GPS}\\
 
@@ -1176,6 +1197,7 @@
         \item ARTICULO2
         \item ARTICULO3
       \end{itemize}
+
 
 
 \end{document}
