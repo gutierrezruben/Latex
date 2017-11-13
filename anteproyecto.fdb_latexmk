@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1510569093 "anteproyecto.tex" "anteproyecto.pdf" "anteproyecto" 1510569097
+["pdflatex"] 1510571880 "anteproyecto.tex" "anteproyecto.pdf" "anteproyecto" 1510571884
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -86,9 +86,9 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1506000240 4129592 ce8225b56acf064382da5d2a77a38ed6 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "anteproyecto.aux" 1510569097 9924 251b022bffab78546472681fb6cf97ab ""
-  "anteproyecto.out" 1510569097 1894 797aa194e51c9793af772d0b9b805ece ""
-  "anteproyecto.tex" 1510569081 73703 9d8526c1f472bc58590e6b2845998fad ""
+  "anteproyecto.aux" 1510571884 9924 251b022bffab78546472681fb6cf97ab ""
+  "anteproyecto.out" 1510571884 1894 797aa194e51c9793af772d0b9b805ece ""
+  "anteproyecto.tex" 1510571878 75474 107d21eff9684c7d51e73f588c79de09 ""
   "img/CasoDeUso-RealizarCarrera.png" 1507716727 122775 2b503b9fc9a021abb87f7006ebe41cb6 ""
   "img/CasoDeUso-VisualizarDatos.png" 1507716040 109278 3152982390502af3daf508a987e2ccc7 ""
   "img/Gasto-en-bienes-y-servicios-vinculados-al-deporte.png" 1509372752 67034 bb880a454ff2fffdfe1d654c4bb41ac8 ""
@@ -141,7 +141,7 @@
   "img/tabsWP.png" 1508204458 8726 70e58cf77870944f695158fc5436fd2d ""
   "img/wwwV1.png" 1508291420 8114 97d3ea847ffc014388daed50f19885fd ""
   (generated)
+  "anteproyecto.out"
   "anteproyecto.log"
   "anteproyecto.aux"
-  "anteproyecto.out"
   "anteproyecto.pdf"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.21)  13 NOV 2017 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.21)  13 NOV 2017 12:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1706,25 +1706,40 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./anteproyecto.tex:1022: LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1028
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1032
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1038
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1039--1047
+
+ []
+
+
+./anteproyecto.tex:1050: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1022 
+l.1050 
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1033
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1051--1061
 
  []
 
@@ -1737,104 +1752,98 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]
+Underfull \hbox (badness 10000) in paragraph at lines 1062--1067
 
-./anteproyecto.tex:1062: LaTeX Error: There's no line here to end.
+ []
+
+
+./anteproyecto.tex:1090: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1062 
+l.1090 
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1097
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1073
+Underfull \hbox (badness 10000) in paragraph at lines 1098--1101
 
  []
 
 
-./anteproyecto.tex:1074: LaTeX Error: Unknown float option `H'.
+./anteproyecto.tex:1102: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1074                       \begin{figure}[H]
+l.1102                       \begin{figure}[H]
                                               
 Option `H' ignored and `p' used.
 
 <img/tablaPlataformasIonic.png, id=265, 898.35625pt x 537.00626pt>
 File: img/tablaPlataformasIonic.png Graphic file (type png)
  <use img/tablaPlataformasIonic.png>
-Package pdftex.def Info: img/tablaPlataformasIonic.png used on input line 1076.
+Package pdftex.def Info: img/tablaPlataformasIonic.png used on input line 1104.
 (pdftex.def)             Requested size: 422.52054pt x 252.56505pt.
 
 
-./anteproyecto.tex:1080: LaTeX Error: There's no line here to end.
+./anteproyecto.tex:1108: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1080                       \\\\
+l.1108                       \\\\
                                  \textcolor[rgb]{1,0,0}{Aqui va la imagen: p...
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./anteproyecto.tex:1080: LaTeX Error: There's no line here to end.
+./anteproyecto.tex:1108: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1080                       \\\\\textcolor
+l.1108                       \\\\\textcolor
                                            [rgb]{1,0,0}{Aqui va la imagen: p...
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1084
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1085--1091
+Underfull \hbox (badness 10000) in paragraph at lines 1113--1119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1092--1096
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1097--1100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1118--1124
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1124
 
  []
 
@@ -1847,208 +1856,129 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1134--1137
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1128
 
  []
 
 
-./anteproyecto.tex:1146: LaTeX Error: Unknown float option `H'.
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1162--1165
+
+ []
+
+
+./anteproyecto.tex:1174: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1146                    \begin{figure}[H]
+l.1174                    \begin{figure}[H]
                                            
 Option `H' ignored and `p' used.
 
 <img/blankA.png, id=270, 217.5628pt x 385.44pt>
 File: img/blankA.png Graphic file (type png)
  <use img/blankA.png>
-Package pdftex.def Info: img/blankA.png used on input line 1148.
+Package pdftex.def Info: img/blankA.png used on input line 1176.
 (pdftex.def)             Requested size: 140.84256pt x 249.5332pt.
  <img/blankIOs.png, id=271, 216.81pt x 384.6872pt>
 File: img/blankIOs.png Graphic file (type png)
  <use img/blankIOs.png>
-Package pdftex.def Info: img/blankIOs.png used on input line 1149.
+Package pdftex.def Info: img/blankIOs.png used on input line 1177.
 (pdftex.def)             Requested size: 140.84256pt x 249.9087pt.
  <img/blankWP.png, id=272, 219.82124pt x 383.93437pt>
 File: img/blankWP.png Graphic file (type png)
  <use img/blankWP.png>
-Package pdftex.def Info: img/blankWP.png used on input line 1150.
+Package pdftex.def Info: img/blankWP.png used on input line 1178.
 (pdftex.def)             Requested size: 140.84256pt x 245.99835pt.
 
 
-./anteproyecto.tex:1156: LaTeX Error: Unknown float option `H'.
+./anteproyecto.tex:1184: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1156                   \begin{figure}[H]
+l.1184                   \begin{figure}[H]
                                           
 Option `H' ignored and `p' used.
 
 <img/tabsA.png, id=273, 207.02344pt x 366.61969pt>
 File: img/tabsA.png Graphic file (type png)
  <use img/tabsA.png>
-Package pdftex.def Info: img/tabsA.png used on input line 1158.
+Package pdftex.def Info: img/tabsA.png used on input line 1186.
 (pdftex.def)             Requested size: 140.84256pt x 249.42674pt.
  <img/tabsIOS.png, id=274, 208.52907pt x 368.1253pt>
 File: img/tabsIOS.png Graphic file (type png)
  <use img/tabsIOS.png>
-Package pdftex.def Info: img/tabsIOS.png used on input line 1159.
+Package pdftex.def Info: img/tabsIOS.png used on input line 1187.
 (pdftex.def)             Requested size: 140.84256pt x 248.64798pt.
  <img/tabsWP.png, id=275, 207.77625pt x 367.3725pt>
 File: img/tabsWP.png Graphic file (type png)
  <use img/tabsWP.png>
-Package pdftex.def Info: img/tabsWP.png used on input line 1160.
+Package pdftex.def Info: img/tabsWP.png used on input line 1188.
 (pdftex.def)             Requested size: 140.84256pt x 249.03639pt.
 
 
-./anteproyecto.tex:1166: LaTeX Error: Unknown float option `H'.
+./anteproyecto.tex:1194: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1166                  \begin{figure}[H]
+l.1194                  \begin{figure}[H]
                                          
 Option `H' ignored and `p' used.
 
 <img/sidemenuA.png, id=276, 207.77625pt x 367.3725pt>
 File: img/sidemenuA.png Graphic file (type png)
  <use img/sidemenuA.png>
-Package pdftex.def Info: img/sidemenuA.png used on input line 1169.
+Package pdftex.def Info: img/sidemenuA.png used on input line 1197.
 (pdftex.def)             Requested size: 140.84256pt x 249.03639pt.
  <img/sidemenuIOS.png, id=277, 209.28188pt x 368.87813pt>
 File: img/sidemenuIOS.png Graphic file (type png)
  <use img/sidemenuIOS.png>
-Package pdftex.def Info: img/sidemenuIOS.png used on input line 1170.
+Package pdftex.def Info: img/sidemenuIOS.png used on input line 1198.
 (pdftex.def)             Requested size: 140.84256pt x 248.24463pt.
  <img/sidemenuWP.png, id=278, 210.03468pt x 367.3725pt>
 File: img/sidemenuWP.png Graphic file (type png)
  <use img/sidemenuWP.png>
-Package pdftex.def Info: img/sidemenuWP.png used on input line 1171.
+Package pdftex.def Info: img/sidemenuWP.png used on input line 1199.
 (pdftex.def)             Requested size: 140.84256pt x 246.35129pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1181
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1209
 
  []
 
 
-./anteproyecto.tex:1185: LaTeX Error: Unknown float option `H'.
+./anteproyecto.tex:1213: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1185               \begin{figure}[H]
+l.1213               \begin{figure}[H]
                                       
 Option `H' ignored and `p' used.
 
 <img/estructuraV1.png, id=279, 115.93312pt x 304.88907pt>
 File: img/estructuraV1.png Graphic file (type png)
  <use img/estructuraV1.png>
-Package pdftex.def Info: img/estructuraV1.png used on input line 1187.
+Package pdftex.def Info: img/estructuraV1.png used on input line 1215.
 (pdftex.def)             Requested size: 140.84256pt x 370.42888pt.
  <img/estructuraV2V3.png, id=280, 116.68594pt x 289.08pt>
 File: img/estructuraV2V3.png Graphic file (type png)
  <use img/estructuraV2V3.png>
-Package pdftex.def Info: img/estructuraV2V3.png used on input line 1188.
+Package pdftex.def Info: img/estructuraV2V3.png used on input line 1216.
 (pdftex.def)             Requested size: 140.84256pt x 348.96301pt.
+LaTeX Info: Redefining \. on input line 1219.
+LaTeX Info: Redefining \% on input line 1219.
 
-
-./anteproyecto.tex:1192: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1192               \\\\
-                         \textcolor[rgb]{1,0,0}{Aqui va la imagen: Estructur...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./anteproyecto.tex:1192: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1192               \\\\\textcolor
-                                   [rgb]{1,0,0}{Aqui va la imagen: Estructur...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1192--1194
-
- []
-
-
-./anteproyecto.tex:1217: LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1217              \begin{figure}[H]
-                                     
-Option `H' ignored and `p' used.
-
-<img/wwwV1.png, id=281, 127.97812pt x 252.945pt>
-File: img/wwwV1.png Graphic file (type png)
- <use img/wwwV1.png>
-Package pdftex.def Info: img/wwwV1.png used on input line 1219.
-(pdftex.def)             Requested size: 140.84256pt x 278.39088pt.
- <img/srcV2V3.png, id=282, 118.19156pt x 216.05719pt>
-File: img/srcV2V3.png Graphic file (type png)
- <use img/srcV2V3.png>
-Package pdftex.def Info: img/srcV2V3.png used on input line 1220.
-(pdftex.def)             Requested size: 140.84256pt x 257.47057pt.
-
-
-./anteproyecto.tex:1225: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1225             \\\\
-                       \textcolor[rgb]{1,0,0}{Aqui va la imagen: Lugar de tr...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./anteproyecto.tex:1225: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1225             \\\\\textcolor
-                                 [rgb]{1,0,0}{Aqui va la imagen: Lugar de tr...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
-
- []
-
-LaTeX Info: Redefining \. on input line 1227.
-LaTeX Info: Redefining \% on input line 1227.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2056,109 +1986,97 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1272
+
+./anteproyecto.tex:1220: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1220               \\\\
+                         \textcolor[rgb]{1,0,0}{Aqui va la imagen: Estructur...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./anteproyecto.tex:1220: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1220               \\\\\textcolor
+                                   [rgb]{1,0,0}{Aqui va la imagen: Estructur...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1222
 
  []
 
 
-./anteproyecto.tex:1285: LaTeX Error: There's no line here to end.
+./anteproyecto.tex:1245: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1285 
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./anteproyecto.tex:1287: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1287 
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./anteproyecto.tex:1292: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1292 
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./anteproyecto.tex:1293: LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1293            \begin{figure}[H]
-                                   
+l.1245              \begin{figure}[H]
+                                     
 Option `H' ignored and `p' used.
 
-<img/CasoDeUso-RealizarCarrera.png, id=287, 773.89125pt x 492.84125pt>
-File: img/CasoDeUso-RealizarCarrera.png Graphic file (type png)
- <use img/CasoDeUso-RealizarCarrera.png>
-Package pdftex.def Info: img/CasoDeUso-RealizarCarrera.png used on input line 1295.
-(pdftex.def)             Requested size: 375.57779pt x 239.17812pt.
- <img/CasoDeUso-VisualizarDatos.png, id=288, 862.22125pt x 461.725pt>
-File: img/CasoDeUso-VisualizarDatos.png Graphic file (type png)
- <use img/CasoDeUso-VisualizarDatos.png>
-Package pdftex.def Info: img/CasoDeUso-VisualizarDatos.png used on input line 1296.
-(pdftex.def)             Requested size: 375.57779pt x 201.12352pt.
+<img/wwwV1.png, id=285, 127.97812pt x 252.945pt>
+File: img/wwwV1.png Graphic file (type png)
+ <use img/wwwV1.png>
+Package pdftex.def Info: img/wwwV1.png used on input line 1247.
+(pdftex.def)             Requested size: 140.84256pt x 278.39088pt.
+ <img/srcV2V3.png, id=286, 118.19156pt x 216.05719pt>
+File: img/srcV2V3.png Graphic file (type png)
+ <use img/srcV2V3.png>
+Package pdftex.def Info: img/srcV2V3.png used on input line 1248.
+(pdftex.def)             Requested size: 140.84256pt x 257.47057pt.
 
 
-./anteproyecto.tex:1301: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1301           \\\\
-                     \textcolor[rgb]{1,0,0}{Aqui va la imagen: Caso de uso}\\\\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./anteproyecto.tex:1301: LaTeX Error: There's no line here to end.
+./anteproyecto.tex:1253: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1301           \\\\\textcolor
-                               [rgb]{1,0,0}{Aqui va la imagen: Caso de uso}\\\\
+l.1253             \\\\
+                       \textcolor[rgb]{1,0,0}{Aqui va la imagen: Lugar de tr...
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1301--1302
+./anteproyecto.tex:1253: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1253             \\\\\textcolor
+                                 [rgb]{1,0,0}{Aqui va la imagen: Lugar de tr...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1253--1254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1301--1302
+Underfull \hbox (badness 10000) in paragraph at lines 1253--1254
 
  []
 
-LaTeX Info: Redefining \. on input line 1302.
-LaTeX Info: Redefining \% on input line 1302.
+LaTeX Info: Redefining \. on input line 1293.
+LaTeX Info: Redefining \% on input line 1293.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2166,66 +2084,167 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [18]
-
-./anteproyecto.tex:1304: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1304 
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./anteproyecto.tex:1306: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1306 
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./anteproyecto.tex:1308: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1308 
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1320
+Underfull \hbox (badness 10000) in paragraph at lines 1295--1300
 
  []
 
 
-./anteproyecto.tex:1333: LaTeX Error: \begin{itemize} on input line 551 ended by \end{document}.
+./anteproyecto.tex:1313: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1333 \end{document}
+l.1313 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./anteproyecto.tex:1315: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1315 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./anteproyecto.tex:1320: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1320 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./anteproyecto.tex:1321: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1321            \begin{figure}[H]
+                                   
+Option `H' ignored and `p' used.
+
+<img/CasoDeUso-RealizarCarrera.png, id=291, 773.89125pt x 492.84125pt>
+File: img/CasoDeUso-RealizarCarrera.png Graphic file (type png)
+ <use img/CasoDeUso-RealizarCarrera.png>
+Package pdftex.def Info: img/CasoDeUso-RealizarCarrera.png used on input line 1323.
+(pdftex.def)             Requested size: 375.57779pt x 239.17812pt.
+ <img/CasoDeUso-VisualizarDatos.png, id=292, 862.22125pt x 461.725pt>
+File: img/CasoDeUso-VisualizarDatos.png Graphic file (type png)
+ <use img/CasoDeUso-VisualizarDatos.png>
+Package pdftex.def Info: img/CasoDeUso-VisualizarDatos.png used on input line 1324.
+(pdftex.def)             Requested size: 375.57779pt x 201.12352pt.
+
+
+./anteproyecto.tex:1329: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1329           \\\\
+                     \textcolor[rgb]{1,0,0}{Aqui va la imagen: Caso de uso}\\\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./anteproyecto.tex:1329: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1329           \\\\\textcolor
+                               [rgb]{1,0,0}{Aqui va la imagen: Caso de uso}\\\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1329--1330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1329--1330
+
+ []
+
+
+./anteproyecto.tex:1332: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1332 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./anteproyecto.tex:1334: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1334 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./anteproyecto.tex:1336: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1336 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1345--1348
+
+ []
+
+
+./anteproyecto.tex:1361: LaTeX Error: \begin{itemize} on input line 551 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1361 \end{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1333.
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1361.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2233,8 +2252,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2243,8 +2262,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [20 <./img/fitfapp.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2253,8 +2272,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21 <./img/strava1.png> <./img/strava2.png> <./img/strava3.png> <./img/strava4.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2263,8 +2282,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22 <./img/runkeeper1.png> <./img/runkeeper2.png> <./img/runkeeper3.png> <./img/runkeeper4.png> <./img/runkeeper5.png> <./img/runkeeper6.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2273,8 +2292,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23 <./img/mapmy1.png> <./img/mapmy2.png> <./img/mapmy3.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2283,8 +2302,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24 <./img/barras.png> <./img/lineas.png> <./img/circular.png> <./img/tabla-radar.png> <./img/area-polar.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2293,8 +2312,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25 <./img/rosco.png> <./img/barras-horizontales.png> <./img/barras-agrupado.png> <./img/cuadro-mixto.png> <./img/tabla-burbujas.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2303,8 +2322,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26 <./img/ejemplo-entrenamiento.png> <./img/tablaPlataformasIonic.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2313,8 +2332,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27 <./img/blankA.png> <./img/blankIOs.png> <./img/blankWP.png> <./img/tabsA.png> <./img/tabsIOS.png> <./img/tabsWP.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2323,8 +2342,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28 <./img/sidemenuA.png> <./img/sidemenuIOS.png> <./img/sidemenuWP.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2333,8 +2352,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29 <./img/estructuraV1.png> <./img/estructuraV2V3.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2343,8 +2362,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30 <./img/wwwV1.png> <./img/srcV2V3.png>]
-LaTeX Info: Redefining \. on input line 1333.
-LaTeX Info: Redefining \% on input line 1333.
+LaTeX Info: Redefining \. on input line 1361.
+LaTeX Info: Redefining \% on input line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2353,20 +2372,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [31 <./img/CasoDeUso-RealizarCarrera.png> <./img/CasoDeUso-VisualizarDatos.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1333.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1361.
  (./anteproyecto.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1333.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1333.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1361.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1361.
 Package rerunfilecheck Info: File `anteproyecto.out' has not changed.
 (rerunfilecheck)             Checksum: 797AA194E51C9793AF772D0B9B805ECE;1894.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1333.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1361.
  )
 (\end occurred inside a group at level 1)
 
@@ -2382,7 +2401,7 @@ Here is how much of TeX's memory you used:
  37i,12n,45p,384b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt12.pfb>
-Output written on anteproyecto.pdf (31 pages, 4214734 bytes).
+Output written on anteproyecto.pdf (31 pages, 4215622 bytes).
 PDF statistics:
  492 PDF objects out of 1000 (max. 8388607)
  340 compressed objects within 4 object streams
