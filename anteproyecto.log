@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.21)  13 NOV 2017 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.21)  14 NOV 2017 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2134,117 +2134,231 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1321            \begin{figure}[H]
-                                   
+l.1321             \begin{figure}[H]
+                                    
 Option `H' ignored and `p' used.
 
-<img/CasoDeUso-RealizarCarrera.png, id=291, 773.89125pt x 492.84125pt>
-File: img/CasoDeUso-RealizarCarrera.png Graphic file (type png)
- <use img/CasoDeUso-RealizarCarrera.png>
-Package pdftex.def Info: img/CasoDeUso-RealizarCarrera.png used on input line 1323.
-(pdftex.def)             Requested size: 375.57779pt x 239.17812pt.
- <img/CasoDeUso-VisualizarDatos.png, id=292, 862.22125pt x 461.725pt>
-File: img/CasoDeUso-VisualizarDatos.png Graphic file (type png)
- <use img/CasoDeUso-VisualizarDatos.png>
-Package pdftex.def Info: img/CasoDeUso-VisualizarDatos.png used on input line 1324.
-(pdftex.def)             Requested size: 375.57779pt x 201.12352pt.
+<img/iniciar-una-carrera.png, id=291, 1465.475pt x 825.0825pt>
+File: img/iniciar-una-carrera.png Graphic file (type png)
+ <use img/iniciar-una-carrera.png>
+Package pdftex.def Info: img/iniciar-una-carrera.png used on input line 1323.
+(pdftex.def)             Requested size: 375.57779pt x 211.44449pt.
 
 
-./anteproyecto.tex:1329: LaTeX Error: There's no line here to end.
+./anteproyecto.tex:1326: LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1329           \\\\
+l.1326             \begin{figure}[H]
+                                    
+Option `H' ignored and `p' used.
+
+<img/parar-una-carrera.png, id=292, 1473.505pt x 742.775pt>
+File: img/parar-una-carrera.png Graphic file (type png)
+ <use img/parar-una-carrera.png>
+Package pdftex.def Info: img/parar-una-carrera.png used on input line 1328.
+(pdftex.def)             Requested size: 375.57779pt x 189.32011pt.
+
+
+./anteproyecto.tex:1331: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1331             \begin{figure}[H]
+                                    
+Option `H' ignored and `p' used.
+
+<img/reanudar-una-carrera.png, id=293, 1472.50125pt x 747.79375pt>
+File: img/reanudar-una-carrera.png Graphic file (type png)
+ <use img/reanudar-una-carrera.png>
+Package pdftex.def Info: img/reanudar-una-carrera.png used on input line 1333.
+(pdftex.def)             Requested size: 375.57779pt x 190.73622pt.
+
+
+./anteproyecto.tex:1336: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1336             \begin{figure}[H]
+                                    
+Option `H' ignored and `p' used.
+
+<img/finalizar-una-carrera.png, id=294, 1470.49374pt x 784.9325pt>
+File: img/finalizar-una-carrera.png Graphic file (type png)
+ <use img/finalizar-una-carrera.png>
+Package pdftex.def Info: img/finalizar-una-carrera.png used on input line 1338.
+(pdftex.def)             Requested size: 375.57779pt x 200.47252pt.
+
+
+./anteproyecto.tex:1341: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1341             \begin{figure}[H]
+                                    
+Option `H' ignored and `p' used.
+
+<img/guardar-una-carrera.png, id=295, 1464.47125pt x 589.20125pt>
+File: img/guardar-una-carrera.png Graphic file (type png)
+ <use img/guardar-una-carrera.png>
+Package pdftex.def Info: img/guardar-una-carrera.png used on input line 1343.
+(pdftex.def)             Requested size: 375.57779pt x 151.10292pt.
+
+
+./anteproyecto.tex:1346: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1346             \begin{figure}[H]
+                                    
+Option `H' ignored and `p' used.
+
+<img/no-guardar-una-carrera.png, id=296, 1468.48625pt x 586.19pt>
+File: img/no-guardar-una-carrera.png Graphic file (type png)
+ <use img/no-guardar-una-carrera.png>
+Package pdftex.def Info: img/no-guardar-una-carrera.png used on input line 1348.
+(pdftex.def)             Requested size: 375.57779pt x 149.91922pt.
+
+
+./anteproyecto.tex:1351: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1351             \begin{figure}[H]
+                                    
+Option `H' ignored and `p' used.
+
+<img/visualizar-una-carrera.png, id=297, 1376.14125pt x 834.11626pt>
+File: img/visualizar-una-carrera.png Graphic file (type png)
+ <use img/visualizar-una-carrera.png>
+Package pdftex.def Info: img/visualizar-una-carrera.png used on input line 1353.
+(pdftex.def)             Requested size: 375.57779pt x 227.64537pt.
+
+
+./anteproyecto.tex:1356: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1356             \begin{figure}[H]
+                                    
+Option `H' ignored and `p' used.
+
+<img/visualizar-progreso.png, id=298, 1371.1225pt x 594.22pt>
+File: img/visualizar-progreso.png Graphic file (type png)
+ <use img/visualizar-progreso.png>
+Package pdftex.def Info: img/visualizar-progreso.png used on input line 1358.
+(pdftex.def)             Requested size: 375.57779pt x 162.76271pt.
+
+
+./anteproyecto.tex:1361: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1361           \\\\
                      \textcolor[rgb]{1,0,0}{Aqui va la imagen: Caso de uso}\\\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./anteproyecto.tex:1329: LaTeX Error: There's no line here to end.
+./anteproyecto.tex:1361: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1329           \\\\\textcolor
+l.1361           \\\\\textcolor
                                [rgb]{1,0,0}{Aqui va la imagen: Caso de uso}\\\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1330
+Underfull \hbox (badness 10000) in paragraph at lines 1361--1362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1330
+Underfull \hbox (badness 10000) in paragraph at lines 1361--1362
 
  []
 
 
-./anteproyecto.tex:1332: LaTeX Error: There's no line here to end.
+./anteproyecto.tex:1364: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1332 
+l.1364 
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./anteproyecto.tex:1334: LaTeX Error: There's no line here to end.
+./anteproyecto.tex:1366: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1334 
+l.1366 
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./anteproyecto.tex:1336: LaTeX Error: There's no line here to end.
+./anteproyecto.tex:1368: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1336 
+l.1368 
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1348
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1380
 
  []
 
 
-./anteproyecto.tex:1361: LaTeX Error: \begin{itemize} on input line 551 ended by \end{document}.
+./anteproyecto.tex:1393: LaTeX Error: \begin{itemize} on input line 551 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1361 \end{document}
+l.1393 \end{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1361.
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1393.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2252,8 +2366,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2262,8 +2376,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [20 <./img/fitfapp.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2272,8 +2386,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21 <./img/strava1.png> <./img/strava2.png> <./img/strava3.png> <./img/strava4.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2282,8 +2396,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22 <./img/runkeeper1.png> <./img/runkeeper2.png> <./img/runkeeper3.png> <./img/runkeeper4.png> <./img/runkeeper5.png> <./img/runkeeper6.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2292,8 +2406,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23 <./img/mapmy1.png> <./img/mapmy2.png> <./img/mapmy3.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2302,8 +2416,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24 <./img/barras.png> <./img/lineas.png> <./img/circular.png> <./img/tabla-radar.png> <./img/area-polar.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2312,8 +2426,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25 <./img/rosco.png> <./img/barras-horizontales.png> <./img/barras-agrupado.png> <./img/cuadro-mixto.png> <./img/tabla-burbujas.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2322,8 +2436,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26 <./img/ejemplo-entrenamiento.png> <./img/tablaPlataformasIonic.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2332,8 +2446,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27 <./img/blankA.png> <./img/blankIOs.png> <./img/blankWP.png> <./img/tabsA.png> <./img/tabsIOS.png> <./img/tabsWP.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2342,8 +2456,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28 <./img/sidemenuA.png> <./img/sidemenuIOS.png> <./img/sidemenuWP.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2352,8 +2466,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29 <./img/estructuraV1.png> <./img/estructuraV2V3.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2361,9 +2475,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30 <./img/wwwV1.png> <./img/srcV2V3.png>]
-LaTeX Info: Redefining \. on input line 1361.
-LaTeX Info: Redefining \% on input line 1361.
+[30 <./img/wwwV1.png> <./img/srcV2V3.png> <./img/iniciar-una-carrera.png>]
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2371,40 +2485,60 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31 <./img/CasoDeUso-RealizarCarrera.png> <./img/CasoDeUso-VisualizarDatos.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1361.
+[31 <./img/parar-una-carrera.png> <./img/reanudar-una-carrera.png> <./img/finalizar-una-carrera.png>]
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32 <./img/guardar-una-carrera.png> <./img/no-guardar-una-carrera.png> <./img/visualizar-una-carrera.png>]
+LaTeX Info: Redefining \. on input line 1393.
+LaTeX Info: Redefining \% on input line 1393.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33 <./img/visualizar-progreso.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1393.
  (./anteproyecto.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1361.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1361.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1393.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1393.
 Package rerunfilecheck Info: File `anteproyecto.out' has not changed.
 (rerunfilecheck)             Checksum: 797AA194E51C9793AF772D0B9B805ECE;1894.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1361.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1393.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 551 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 7170 strings out of 492995
- 105054 string characters out of 6132704
- 205161 words of memory out of 5000000
- 10475 multiletter control sequences out of 15000+600000
+ 7200 strings out of 492995
+ 105920 string characters out of 6132704
+ 205125 words of memory out of 5000000
+ 10498 multiletter control sequences out of 15000+600000
  10690 words of font info for 37 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  37i,12n,45p,384b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt12.pfb>
-Output written on anteproyecto.pdf (31 pages, 4215622 bytes).
+Output written on anteproyecto.pdf (33 pages, 4730326 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 340 compressed objects within 4 object streams
- 107 named destinations out of 1000 (max. 500000)
- 496 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 511 PDF objects out of 1000 (max. 8388607)
+ 345 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 526 words of extra memory for PDF output out of 10000 (max. 10000000)
 
