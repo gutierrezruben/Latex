@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1512128334 "anteproyecto.tex" "anteproyecto.pdf" "anteproyecto" 1512128339
+["pdflatex"] 1512396678 "anteproyecto.tex" "anteproyecto.pdf" "anteproyecto" 1512396684
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -89,9 +89,9 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1506000240 4129592 ce8225b56acf064382da5d2a77a38ed6 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "anteproyecto.aux" 1512128339 11738 5c283b062010c8511213edab58b379b6 ""
-  "anteproyecto.out" 1512128339 2047 67aa2fafa9b94ec658649928f3cb20e7 ""
-  "anteproyecto.tex" 1512128326 87648 ab5b3d0a948d6bc3265d2f30b756c9c5 ""
+  "anteproyecto.aux" 1512396683 11746 0a426880a020f7dd9f97268a364c974e ""
+  "anteproyecto.out" 1512396683 2047 67aa2fafa9b94ec658649928f3cb20e7 ""
+  "anteproyecto.tex" 1512396670 89224 04745637ae9288b0860fb8a896b538d5 ""
   "img/Gasto-en-bienes-y-servicios-vinculados-al-deporte.png" 1509372752 67034 bb880a454ff2fffdfe1d654c4bb41ac8 ""
   "img/Personas-que-practican-deporte-semanalmente-segun-caracteristicas-personales.png" 1509620912 76533 f59f624eb7f77e06987f574507c0a88a ""
   "img/area-polar.png" 1510128414 135733 287f7056c4a3a0a666996cfec8865f3a ""
@@ -159,7 +159,7 @@
   "img/visualizar-una-carrera.png" 1510668726 172339 b87839d870d4bbd0d585300cfd64081c ""
   "img/wwwV1.png" 1508291420 8114 97d3ea847ffc014388daed50f19885fd ""
   (generated)
-  "anteproyecto.aux"
   "anteproyecto.out"
-  "anteproyecto.pdf"
+  "anteproyecto.aux"
   "anteproyecto.log"
+  "anteproyecto.pdf"
