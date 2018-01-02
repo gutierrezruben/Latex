@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1512396678 "anteproyecto.tex" "anteproyecto.pdf" "anteproyecto" 1512396684
+["pdflatex"] 1514918757 "anteproyecto.tex" "anteproyecto.pdf" "anteproyecto" 1514918771
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -25,9 +25,11 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1480098733 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb" 1480098733 33268 c6f8eb7f8646b55ddad94764eab1ec72 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1480098733 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1480098733 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1480098733 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1480098733 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1480098733 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1480098733 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb" 1480098733 34568 e95ac975699d095006441d4661d37d28 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -89,9 +91,9 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1506000240 4129592 ce8225b56acf064382da5d2a77a38ed6 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "anteproyecto.aux" 1512396683 11746 0a426880a020f7dd9f97268a364c974e ""
-  "anteproyecto.out" 1512396683 2047 67aa2fafa9b94ec658649928f3cb20e7 ""
-  "anteproyecto.tex" 1512396670 89224 04745637ae9288b0860fb8a896b538d5 ""
+  "anteproyecto.aux" 1514918769 12138 c58f68ccfcbff35756cf7381c78fa907 ""
+  "anteproyecto.out" 1514918769 2303 948511d7ccc55e1407c6e893f9089d2c ""
+  "anteproyecto.tex" 1514918753 94197 68bbf2e44dab30ba3831f2fb48b975d8 ""
   "img/Gasto-en-bienes-y-servicios-vinculados-al-deporte.png" 1509372752 67034 bb880a454ff2fffdfe1d654c4bb41ac8 ""
   "img/Personas-que-practican-deporte-semanalmente-segun-caracteristicas-personales.png" 1509620912 76533 f59f624eb7f77e06987f574507c0a88a ""
   "img/area-polar.png" 1510128414 135733 287f7056c4a3a0a666996cfec8865f3a ""
@@ -159,7 +161,7 @@
   "img/visualizar-una-carrera.png" 1510668726 172339 b87839d870d4bbd0d585300cfd64081c ""
   "img/wwwV1.png" 1508291420 8114 97d3ea847ffc014388daed50f19885fd ""
   (generated)
-  "anteproyecto.out"
-  "anteproyecto.aux"
   "anteproyecto.log"
   "anteproyecto.pdf"
+  "anteproyecto.out"
+  "anteproyecto.aux"

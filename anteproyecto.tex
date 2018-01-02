@@ -1085,7 +1085,50 @@
             %(http://www.phonegapspain.com/que-es-y-como-empezar-con-angularjs/)
 
         \subsection{Conectividad internet}\\
-        La evo
+          % OBTENIDO DE LA ASIGNATURA: redes inalambricas
+            \subsubsection{1G}
+              Allá por los setenta se dió origen a un nuevo estándar de
+              conectividad que cambiaria al mundo. Esto permitió realizar llamadas con
+              telefonos sin cable. Esta tecnología se basa en dividisson del
+              área de cobertura en celdas, estas celdas tienen una distribución
+              hexagonal debido a que es la fomra más optima. Se reutilizan las
+              frecuencias, para optimizar recursos, de manera que la celdas
+              contigüas a una misma no tenga la misma frecuencia, como en el
+              juego sudoku. Gracias a esto al telefono sin cable se le comenzó
+              a denominar "celular".\\
+
+
+            \subsubsection{2G}
+
+              Con el crecimiento de esta tecnología, a principio de los noventa,
+              se dio el siguiente salto de generación, que gracias al estandar
+              GSM permitio ademas de realizar llamadas de voz, tener mallor
+              velocidad de transferencias de datos y la posibilidad de enviar
+              SMS. También los moviles más modernos tenian la posibilidad de
+              acceder algunas páginas web adaptadas a estos dispositivos.\\
+
+            \subsubsection{3G}
+
+              Antes de la llegada de esta generación, era impensable ver videos
+              o sostener una videocofenrencia através de un teléfono móvil.
+              En esta tercera ola, nacen los primeros moviles inteligentes.
+              Gracias al estandar UMTS se consigue hasta los 2 Mbps, tambien
+              tiene soporte simultáneo de voz y datos. Hubo grandes cambios
+              pues la llegada de los telefonos inteligentes junto a la nueva
+              tecnologia 3G nos dio lugar a un cambio en la socieadad ya no
+              sólo realizamos llanmadas, tambien navegamos por internet, respondemos
+              a nuestros correos, almacenamos nuestras fotos, etc.\\
+
+
+            \subsubsection{4G}
+
+              La llegada de la cuarta generación fue una evolución natural de
+              las tecnologías anteriores, que nos capultó en cuanto a velocidad
+              de transferencia de datos se refiere, llegando a los 3 Gbps en
+              descarga y 1.5 en subida. En un uso normal se le da importancia a
+              servicios en la nube.\\
+
+
         \subsection{Ionic}\\
 
             Ionic es un framework para el desarrollo de aplicaciones híbridas,
@@ -1515,13 +1558,13 @@
               más concretamente es un servicio HTTP. Como vemos en esta línea de
               codigo, de HTML, que mostramos a continuación:\\
 
-              \begin{lstlisting}
+              \begin{lstlisting}[frame=single,numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=-2pt]
     <img src="https://maps.googleapis.com/maps/api/staticmap?
-         zoom=14&amp;
-         size=400x300&amp;
-         path=color:0xD50000|
-         weight:5|
-         {{gps}}">
+                   zoom=14&amp;
+                   size=400x300&amp;
+                   path=color:0xD50000|
+                   weight:5|
+                   {{gps}}">
               \end{lstlisting}
 
 
@@ -1548,7 +1591,58 @@
 
             \subsection{Api GPS}
 
+              Para completar el módulo Google maps para Ionic, hemos de implementar
+              el módulo GPS. Este complemento proporciona información sobre la ubicación del
+              dispositivo, como la latitud y la longitud. Las fuentes comunes
+              de información de ubicación incluyen el Sistema de Posicionamiento
+              Global (GPS) y la ubicación deducida de las señales de red como
+              la dirección IP, RFID, WiFi y las direcciones MAC Bluetooth, y
+              las ID de las células GSM/CDMA.\\
 
+              Para poder instalar este módulo introduciremos estos do comandos:\\
+                \begin{itemize}
+                    \item{\$ ionic cordova plugin add cordova-plugin-geolocation \\
+                            - -variable GEOLOCATION\_USAGE\_DESCRIPTION ``Localizame`` }
+                    \item{\$ npm install - -save @ionic-native/geolocation}
+                \end{itemize}
+
+                Cómo ocurría en el módulo de Google maps, con ese comando ya lo
+                tenmos en nuestras librerías y ahora tenemos que
+                declararlo en el fichero ``app.module.ts``, como podemos ver en
+                la figura (\ref{f:module.ts}), esto es necesario para que sea
+                cargado el módulo en la aplicación.\\
+
+                El siguiente paso es es exactamente igual al anterior módulo
+                mencionado. En la vista que queremos
+                usarlo tendremos que declararlo, para ello tendremos primero que
+                añadirlo en el fichero
+                typeScript: ``entrenamiento.ts``, de la manera que se muestra en
+                la figura (\ref{f:entrenamientoTS}). Con el siguiente código nos
+                permitira obtener la ubicación de nuestro dispositivo GPS:\\
+
+                \begin{lstlisting}[frame=single,numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=-2pt]
+this.geo.getCurrentPosition().then((res) => {
+  this.listPosicion= this.listPosicion + res.coords.latitude +','+ res.coords.longitude +';';
+})
+                \end{lstlisting}
+
+
+                Este código puede resultar confuso, pero nada más lejo de la realidad
+                pues se usa ``this.geo`` que es el nombre de la clase Geolocalización,
+                luego observamos ``.getCurrentPosition()`` que es un método de
+                la clase antes mencionada, y ahora esto junto a ``.then((res) =>{})``
+                nos permite realizar una función de flecha y esto es un es que
+                dentro del then creamos funciones anónimas más fácilmente y
+                además permiten utilizar this en el contexto actual. Gracias a
+                ese then podemos introducir lo que devuelve el método, en este
+                caso las posiciones de coordenadas de latidud y longitud en la
+                variable ``res`` y usarlo en nuestra función anonima cómo
+                observamos.\\
+
+                Posteriormente vemos como almacenamos en una lista de ubicaciones
+                todas las posiciones GPS que vamos tratando y que con un simple
+                ``res.coords.latitude`` y ``res.coords.longitude`` tenemos las
+                dos coordenadas para posicionarnos en el mapa.\\∫
 
 
 \section{Análisis y diseños}
