@@ -115,7 +115,7 @@
 
   \begin{document}
 
-  \title{\emph{Anteproyecto Trabajo Fin de Grado} \\
+  \title{\emph{Trabajo Fin de Grado} \\
    Aplicacion para moviles inteligentes para el deporte\\
    Application for smartphone for sport\\
   }
@@ -136,7 +136,6 @@
   %
   %
 %
-
 
 \section{Introducción}
 
@@ -229,18 +228,18 @@
 
       Para poder comenzar a hablar de nuestra aplicación y sus beneficios tenemos
       que entender que es la actividad física. Pues según la OMS ``la actividad
-      física cualquier movimiento corporal producido por los músculos esqueléticos
-      que exija gasto de energía.`` También nos indica los factores que provocan
+      física es cualquier movimiento corporal producido por los músculos esqueléticos
+      que exija gasto de energía``. También nos indica los factores que provocan
       la mortalidad mundial y de cómo una actividad regular tiene efectos
       beneficiosos en la salud y previene numerosas enfermedades.\\
 
       %http://www.who.int/dietphysicalactivity/pa/es/
 
-      En la actualidad vivimos en una sociedad que ha ido añadiendo poco a poco
-      una actividad deportiva en sus vidas, además de una alimentación sana. Sin
-      importar lo que los mueve ya sea sobre peso, una búsqueda más profesional
-      del ejercicio físico o para encontrarse bien, encuentran cómoda una
-      aplicación que supervise su progreso. \\
+      En la actualidad vivimos en una sociedad que ha ido añadiendo de manera
+      progresiba actividad deportiva en sus vidas, además de una alimentación sana. Sin
+      importar el motivo que les impulsa a realizar deporte, ya sea por sobre
+      peso, una búsqueda más profesional del ejercicio físico o para encontrarse
+      bien, todos encuentran cómoda una aplicación que supervise su progreso. \\
 
       Como observamos, en el libro Anuario de Estadísticas deportivas 2016,
       perteneciente al Ministerio de educación, Cultura y Deporte y editada por
@@ -258,14 +257,19 @@
       \end{figure}
 
       Como vemos en la figura (\ref{f:empresas}) existe un incremento desde el
-      año 2011 al 2015 de actividades deportivas. Ergo si las empresas ven un
-      incremento en sus actividades deportivas esto significa que hay una demanda
-      de las misma siendo un indicador de un aumento te usuarios que realizan
-      actividades deportivas.\\
+      año 2011 al 2015 de actividades deportivas, al igual que en la fabricación
+      artículos de deporte y comercio al por menor de artículos deportivos,
+      con la excepción de la fabricación y comercio de artículos deportivos en
+      2013 que hubo una caída. Esto es otro indicativo de como el deporte juega
+      un papel fundamental en la sociedad española, esta conclusión llega
+      gracias a que las empresas ven un incremento en sus actividades deportivas
+      esto significa que hay una demanda de las misma, siendo un indicador de
+      un aumento te usuarios que realizan actividades deportivas.\\
 
       Otro gran indicativo, más directo que el de las empresas vinculadas al
       deporte por actividad económica, es la información relativa al gasto de
-      consumo de los hogares.\\
+      consumo de los hogares, pues esta información es más precisa que la anterior
+      debido a que afecta directamente a la población española.\\
 
       \begin{figure}[H]
           \centering
@@ -280,15 +284,19 @@
       diciembre de 2008 la economía entró en recesión y consiguió salir de ella
       en mayo de 2010, aunque por poco tiempo ya que el PIB siguió cayendo en
       tasa interanual hasta que en abril de 2012 encadenó dos trimestres
-      consecutivos de descensos y España volvió a entrar en recesión.`` (Periódico
+      consecutivos de descensos y España volvió a entrar en recesión`` (Periódico
       La Razón: http://www.larazon.es/economia/fechas-clave-de-la-crisis-economica-en-espana-CX4077260).
       Pero este gaston no tiene porque influir en la actividad deportiva sin costo
       como puede ser correr o el ciclismo y teniendo en cuenta que la cantidad
       no disminuye considerablemente se deduce que aún en tiempos de desdicha
       económica se mantiene esa cultura del deporte.\\
 
-      Centrandonos en la población española la información relativa a los hábitos
-      y prácticas deportivas desde una edad de 15 años en adelante.\\
+
+      Ahora observemos la información obtenida de la sociedad española según
+      las características personales, así como la edad de entre quince a veinticuatro
+      años, de veinticinco a cincuenticuatro años y por último de cincuenticinco
+      en adelante, tambien diferenciados en sexo y sus niveles de estudios, primaria
+      y secundaria o estudios superiror.\\
 
       \begin{figure}[H]
           \centering
@@ -397,8 +405,11 @@
 
       \end{comment}
 
-      Como inicio a las aplicaciones  y cerrando la introducción vamos a visualizar
-      las aplicaciones y la cantidad de usuarios y descargas que hay:\\
+      
+
+      Para finalizar la introducción hablaremos de las aplicaciones analizadas,
+      pero más concretamente de la cantidad de usuarios que la utilizan, así como
+      las descargas que han tenido.\\
 
       \begin{itemize}
         \item{Runtastic:}
@@ -1621,9 +1632,9 @@
                 permitira obtener la ubicación de nuestro dispositivo GPS:\\
 
                 \begin{lstlisting}[frame=single,numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=-2pt]
-this.geo.getCurrentPosition().then((res) => {
-  this.listPosicion= this.listPosicion + res.coords.latitude +','+ res.coords.longitude +';';
-})
+        this.geo.getCurrentPosition().then((res) => {
+          this.listPosicion= this.listPosicion + res.coords.latitude +','+ res.coords.longitude +';';
+        })
                 \end{lstlisting}
 
 
@@ -1642,7 +1653,7 @@ this.geo.getCurrentPosition().then((res) => {
                 Posteriormente vemos como almacenamos en una lista de ubicaciones
                 todas las posiciones GPS que vamos tratando y que con un simple
                 ``res.coords.latitude`` y ``res.coords.longitude`` tenemos las
-                dos coordenadas para posicionarnos en el mapa.\\∫
+                dos coordenadas para posicionarnos en el mapa, calcular la velocidad, etc.\\
 
 
 \section{Análisis y diseños}
