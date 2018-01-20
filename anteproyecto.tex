@@ -405,11 +405,12 @@
 
       \end{comment}
 
-      
+
 
       Para finalizar la introducción hablaremos de las aplicaciones analizadas,
       pero más concretamente de la cantidad de usuarios que la utilizan, así como
       las descargas que han tenido.\\
+
 
       \begin{itemize}
         \item{Runtastic:}
@@ -1632,9 +1633,13 @@
                 permitira obtener la ubicación de nuestro dispositivo GPS:\\
 
                 \begin{lstlisting}[frame=single,numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=-2pt]
-        this.geo.getCurrentPosition().then((res) => {
-          this.listPosicion= this.listPosicion + res.coords.latitude +','+ res.coords.longitude +';';
-        })
+  this.geo.getCurrentPosition().then((res) => {
+
+      this.listPosicion = this.listPosicion +
+                          res.coords.latitude  + ',' +
+                          res.coords.longitude + ';'
+                          ;
+  })
                 \end{lstlisting}
 
 
@@ -1700,6 +1705,21 @@
               \includegraphics[width=1\textwidth]{visualizar-progreso}
             \end{figure}
 
+            \begin{figure}[H]
+              \centering
+              \includegraphics[width=1\textwidth]{anadir-datos-en-ajustes}
+            \end{figure}
+
+            \begin{figure}[H]
+              \centering
+              \includegraphics[width=1\textwidth]{visualizar-ajustes}
+            \end{figure}
+
+            \begin{figure}[H]
+              \centering
+              \includegraphics[width=1\textwidth]{editar-datos-en-ajustes}
+            \end{figure}
+
           \\\\\textcolor[rgb]{1,0,0}{Aqui va la imagen: Caso de uso}\\\\
 
        \subsection{Escenarios}\\
@@ -1708,6 +1728,208 @@
 
        \subsection{Programar}\\
 
+\section{Modelo de datos}
+
+    Como podemos observar, en la figura \ref{f:bd}, observamos que existen tres tablas
+    comencemos por la primera, esta se refiere a la del ``Usuario`` compuesta por un id, que
+    es la clave primaria, se inicializa nada más instalar e iniciar la aplicación. Posteriormente
+    nos encontramos con el nombre, que no es de mucha utilidad para alguna función de la aplicación
+    pero si para la vista ``Progreo`` como: ``Gráfica de `` y el nombre que se almacene, sexo,
+    altura, peso y edad, estas cuatro últimas tendrán una funcionalidad en la aplicación viendose
+    en la gráfica que se encuantra en la vista ``Progreso`` y en el ``Historial`` más concretamente
+    cuando visualice un entrenamiento ya realizado. Al igual que el nombre, el sexo, la altura, el
+    peso y la edad no son obligatorio, pero a diferencia del nombre, como se ve en la imagen pero
+    si queremos una mayor precisión de la actividad realizada se relleneran.\\
+
+    La siguiente tabla a analizar es ``Rendimiento``, esta se caracteriza por tener una id como
+    clave primaria, que se incrementará de manera automática en su creación, por otro lado tenemos
+    intensiad, calorías, duración, distancia y ritmo, esto se refiere a los distintos puntos que
+    conforman la gráfica y son los valores de tipo ``float``, que viene a ser racional. Esta tabla
+    tiene su creacíon desde la primer entrenamiento finalizado por el usuario. Y cumple una relación
+    de uno a uno no obligatorio con la tabla ``Usuario``, esto nos dice que hasta que no se realice
+    la carrera no se creara la tabla y que esta no será necesaria hasta entonces, haciendo más eficiente
+    la base de dato.\\
+
+    Por último tenenmos la tabla ``Entrenamiento`` pues al igual que las tablas anteriores tiene id como
+    clave primaria, que se va incrementando conforme se van realizando actividades deportivas, el resto
+    de atributos son: ``fecha\_de\_carrera`` que indica el día y la hora que se realizó el evento siendo este
+    de tipo ``datetime``, ``ruta\_gps`` que es el conjunto de todos las posiciones gps que se han almacenado
+    para posteriormente poder mostrarlo en la vista ``Historial`` esta es de tipo ``String`` o caracteres,
+    ``Distancia`` que es el terreno recorrido en la actividad en kilometros y su tipo es decimal o ``float`,
+    el siguiente es el ``ritmo`` almacenado en minutos por kilometro y es de tipo float, ``duracion`` que
+    es almacenada en minutos y es el tiempo que dura el entrenamiento en minutos se almacena en decimales y
+    por último tenemos ``calorias\_quemadas`` que se almacenan en kilocalorias y es tambien en decimales.\\
+
+
+
+        \begin{figure}[H]
+         \centering
+         \includegraphics[width=1\textwidth]{BD}
+         \caption{Tabla base de datos APP}
+         \label{f:bd}
+        \end{figure}
+
+\section{UML}
+
+
+      Figura \ref{f:uml-clases}
+        \begin{figure}[H]
+         \centering
+         \includegraphics[width=1\textwidth]{UMLclases}
+         \caption{UML: clases}
+         \label{f:uml-clases}
+        \end{figure}
+
+        Figura \ref{f:uml-casos}
+          \begin{figure}[H]
+           \centering
+           \includegraphics[width=1\textwidth]{UMLcasosdeuso}
+           \caption{UML: casos de uso}
+           \label{f:uml-casos}
+          \end{figure}
+
+
+\section{Manual de usuario}
+
+  Tras instalar la aplicación, lo primero que nos aparecerá es un logotipo y una
+  barra circular de carga, como vemos en la imagen  \ref{f:app-inicio}, que dependiendo
+  del dispositivo dicho tiempo de carga sera mayor o menor.\\
+
+
+           \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{1inicio}
+            \caption{Aplicación - Carga}
+            \label{f:app-inicio}
+           \end{figure}
+
+  Después salta automáticamente a la vista ``Entrenamiento``, pues es la vista principal
+  que se ha puesto de manera predeterminada. Esta vista nos da de manera inmediata acceso
+  a la realización de la actividad deportiva. Para ello deberemos activar primero el GPS
+  y tras tenerlo activado presionaremos el botón inicio o ``play`` para comenzar la actividad
+  como apreciamos en la imagen \ref{f:app-entrenamiento}.\\
+
+          \begin{figure}[H]
+           \centering
+           \includegraphics[width=0.5\textwidth]{2entrenamiento}
+           \caption{Aplicación - Entrenamiento}
+           \label{f:app-entrenamiento}
+          \end{figure}
+
+  Una vez iniciado el entrenamiento tenemos dos caminos a elergir, por un lado podremos pausar
+  el entreno, en caso de que tuvieras que detenerlo porque estes en una pausa prolongada y no quieras
+  que eso afecte a tu media deportiva o finalizar el entrenamiento. Primero observemos la parada del
+  entrenamiento como nos muestra \ref{f:app-pause}. Ya pausado podemos retomar el entrenamiento o
+  por contraposición finalizaremos el entreno. Si decidimos el segundo camino nos llevará al siguiente
+  punto.\\
+
+
+            \begin{figure}[H]
+             \centering
+             \includegraphics[width=0.5\textwidth]{3pause}
+             \caption{Aplicación - Entrenamiento}
+             \label{f:app-pause}
+            \end{figure}
+
+  En el siguiente apartado vemos cómo inmediatamente despues de darle al boton finalizar la actividad
+  deportiva o ``stop`` aparece una ventana emergente que nos preguntará si queremos finalizar el
+  entrenamiento, como podemos observar en la imagen \ref{f:app-stop}. Ya en este punto podremos almacenar
+  en la base de datos nuestra actividad física o no. En caso de hacerlo esto se verá reflejado en
+  nuestro progreso y podremos visualizarlo en nuestro historial.\\
+
+
+            \begin{figure}[H]
+             \centering
+             \includegraphics[width=0.5\textwidth]{4stop}
+             \caption{Aplicación - Entrenamiento}
+             \label{f:app-stop}
+            \end{figure}
+
+  Primero lo primero, en cuanto al progreso se trata en esta vista accederemos pulsando el boton con un
+  icono de barras. Como podemos ver de una manera inmediata en la imagen \ref{f:app-progreso} de un sólo
+  vistazo vemos en que nivel nos encontramos en cada uno des los indicadores que forman el pentagono. La
+  cual consta de la media de: intensidad, calorias quemadas, durción, distancia y ritmo. y en el eje que
+  pasa por el centro del pentagono se ve indicado la puntuación de todos los vértices.\\
+
+
+            \begin{figure}[H]
+             \centering
+             \includegraphics[width=0.5\textwidth]{5progreso}
+             \caption{Aplicación - Progreso}
+             \label{f:app-progreso}
+            \end{figure}
+
+
+  La otra vista de la que hablamos que se verá reflejado es el historial, imagen \ref{f:app-historial}, que nos
+  invita a que seleccionemos una fecha, dichas fechas sólo nos aparecerá en las que hayamos realizado  una
+  actividad deportiva, por ejemplo si en el día 1 del mes 1 del año 2018 hemos realizado una actividad y
+  luego el día 2 y el 4 del mismo mes y año, sólo aparecerán dichas fechas, como vemos en la iamgen
+  \ref{f:app-historial-fecha}. Tras seleccionar la fecha veremos la o las carreras realizadas en ese día, como
+  se observa en la imagen \ref{f:app-historial-lista}.\\
+
+
+
+              \begin{figure}[H]
+               \centering
+               \includegraphics[width=0.5\textwidth]{6historial}
+               \caption{Aplicación - Historial}
+               \label{f:app-historial}
+              \end{figure}
+
+              \begin{figure}[H]
+               \centering
+               \includegraphics[width=0.5\textwidth]{7historial-fecha}
+               \caption{Aplicación - Historial}
+               \label{f:app-historial-fecha}
+              \end{figure}
+
+                            \begin{figure}[H]
+                             \centering
+                             \includegraphics[width=0.5\textwidth]{8historial-lista}
+                             \caption{Aplicación - Historial}
+                             \label{f:app-historial-lista}
+                            \end{figure}
+
+  Aunque se vea como otra vista distinta forma parte del historial y es cuando seleccionamos un entrenamiento
+  concreto, es decir si seleccionamos una fecha y hora concreta aparecerá esta vista y nos mostrará un mapa
+  de donde se realizó la actividad física, junto con el recorrido realizado. Además la imagen
+  \ref{f:app-historial-carrera} muestra información detallada de la carrera: distancia, ritmo duración y
+  calorías quemadas. En la parte superior de dicha vista observamos la fecha y la hora que hacen inequívoco la
+  actividad visualizada.\\
+
+              \begin{figure}[H]
+               \centering
+               \includegraphics[width=0.5\textwidth]{9historial-carrera}
+               \caption{Aplicación - Historial}
+               \label{f:app-historial-carrera}
+              \end{figure}
+
+  Por último, pero no por ello menos importante, tenemos la última vista la cual se denomina ajustes y la vista
+  principal nos la promporciana la imagen \ref{f:app-ajustes-completo}, en la cual vemos distintas entradas
+  las cuales no son necesarias rellenar pero si lo hacemos, será más preciso la quema de calorías y
+  la intensidad. Podremos rellenar: el nombre, el sexo, fecha de nacimiento, altura y peso. que gracias al
+  botón guardar nos permite almacenarlo en la base de dato.\\
+
+                \begin{figure}[H]
+                 \centering
+                 \includegraphics[width=0.5\textwidth]{10ajustes-completo}
+                 \caption{Aplicación - Ajustes}
+                 \label{f:app-ajustes-completo}
+                \end{figure}
+
+  En las siguientes imagenes veremos como en los diferentes apartados y la forma de ingresar los datos (figura
+  \label{f:app-ajustes-completo}).\\
+
+                \begin{figure}[H]
+                 \centering
+                 \includegraphics[width=0.3\textwidth]{11ajustes-sexo}
+                 \includegraphics[width=0.3\textwidth]{12ajustes-fecha}
+                 \includegraphics[width=0.3\textwidth]{13ajustes-altura}
+                 \caption{Aplicación - Ajustes}
+                 \label{f:app-ajustes-completo}
+                \end{figure}
+
+            
 
 \section{Medios Materiales}
 
